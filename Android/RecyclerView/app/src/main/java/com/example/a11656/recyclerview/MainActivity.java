@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         initFruits();//初始化水果列表
         RecyclerView recyclerView = findViewById(R.id.recycler_view);//创建RecyclerView
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+
+        //讲横向布局改为纵向布局
+        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+
         //使用一个线性布局管理器
         recyclerView.setLayoutManager(layoutManager);
         //为RecyclerView添加线性布局管理器
