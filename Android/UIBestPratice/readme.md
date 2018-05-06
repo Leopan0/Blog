@@ -1,1 +1,1 @@
-RecyclerView实现一个聊天界面
+RecyclerView实现一个聊天界面，包含Nine—Patch
